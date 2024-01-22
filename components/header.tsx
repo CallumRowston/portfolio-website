@@ -31,7 +31,8 @@ export default function Header() {
                 className={clsx(
                   "flex w-full items-center justify-center px-3 py-3 hover:text-gray-950 transition dark:hover:text-gray-200",
                   {
-                    "text-gray-950 dark:text-gray-200": activeSection === link.name,
+                    "text-gray-950 dark:text-gray-200":
+                      activeSection === link.name,
                   }
                 )}
                 href={link.hash}
@@ -45,7 +46,6 @@ export default function Header() {
                 {link.name === activeSection && (
                   <motion.span
                     className="bg-gradient-to-r from-custom-green via-custom-blue to-custom-purple bg-200% animate-gradient-waves infinite rounded-full absolute inset-0 -z-10 dark:bg-gradient-to-r dark:from-custom-dark-green dark:via-custom-dark-blue dark:to-custom-dark-purple"
-
                     layoutId="activeSection"
                     transition={{
                       type: "spring",
