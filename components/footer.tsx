@@ -7,7 +7,7 @@ export default function Footer() {
             &copy; 2023 Callum Rowston
         </small>
         <p className='text-xs'>
-            <span className='font-semibold'>Teck stack:</span> React, Next.js, TypeScript, TailwindCSS & Framer Motion
+            <span className='font-semibold'>Teck stack:</span> React, Next.js, TypeScript, TailwindCSS, Framer Motion & Resend
         </p>
     </footer>
   )

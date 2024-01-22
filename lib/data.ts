@@ -7,7 +7,6 @@ import apiErdImg from "@/public/api-erd.png";
 import pywordleImg from "@/public/pywordle.jpeg";
 import nbaOctImg from "@/public/nba-oct.png";
 import portfolioLightImg from "@/public/portfolio-light.jpg";
-import portfolioDarkImg from "@/public/portfolio-dark.jpg";
 
 export const links = [
   {
@@ -70,6 +69,7 @@ export const projectsData = [
       "This portfolio site built using the latest NextJS features. Fully animated and responsive with dark mode.",
     tags: ["React", "NextJS", "TypeScript", "Tailwind", "Framer"],
     imageUrl: portfolioLightImg,
+    gitHubUrl: "https://github.com/CallumRowston/portfolio-website"
   },
   {
     title: "Wicky NBA OCT",
@@ -77,6 +77,7 @@ export const projectsData = [
       "A data tool to scrape betting odds from multiple bookmakers for the NBA, aggregate and display the data to help punters make informed decisions",
     tags: ["Python", "React", "Express", "Selenium", "Pandas", "SQL"],
     imageUrl: nbaOctImg,
+    gitHubUrl: "https://wicky.ai/nba-oct/"
   },
   {
     title: "Traveller's Forum",
@@ -84,6 +85,7 @@ export const projectsData = [
       "A complete full-stack forum app with posts, comments, ratings and authentication. My final bootcamp group project built over 3 weeks.",
     tags: ["React", "Express", "MongoDB", "Node.js", "JWT", "Jest"],
     imageUrl: travellersForumImg,
+    gitHubUrl: "https://github.com/CallumRowston/CA-T3A2-B-travelers-forum-server"
   },
   {
     title: "Canyoning API",
@@ -91,6 +93,7 @@ export const projectsData = [
       "A complete API webserver for a canyoning related forum. Full CRUD functionality, authentication and admin controls.",
     tags: ["Python", "Flask", "SQL", "Marshmallow"],
     imageUrl: apiErdImg,
+    gitHubUrl: "https://github.com/CallumRowston/Canyoning_API_Webserver_CallumRowston_T2A2"
   },
   {
     title: "PyWordle",
@@ -98,6 +101,7 @@ export const projectsData = [
       "A Wordle style Python terminal app with additional word length and guess number options, and bash install script for easy setup.",
     tags: ["Python", "Bash", "Scripting", "PyTest"],
     imageUrl: pywordleImg,
+    gitHubUrl: "https://github.com/CallumRowston/Python_Wordle_CallumRowston_T1A3"
   },
 ] as const;
 
