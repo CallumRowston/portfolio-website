@@ -47,6 +47,9 @@ export default function Contact() {
             return ;
           }
 
+          toast.success("Thanks! I'll get back to you soon 😁", {
+            duration: 10000,
+          });
           setSuccessfulSubmit(true);
         }}
       >
