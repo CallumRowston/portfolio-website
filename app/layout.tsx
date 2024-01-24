@@ -6,13 +6,15 @@ import { Toaster } from "react-hot-toast";
 import Footer from "@/components/footer";
 import ThemeSwitch from "@/components/theme-switch";
 import ThemeContextProvider from "@/context/theme-context";
+import opengraphImg from "@/public/portfolio-light.jpg"
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Callum Rowston | Software Engineer",
-  description: "Callum is a full stack developer",
-};
+  description: "Full Stack Developer | TypeScript, Python, React, NextJS, and more!",
+  image: `https://callumrowston.dev${opengraphImg}`,
+  }
 
 export default function RootLayout({
   children,
