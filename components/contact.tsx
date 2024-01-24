@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import SectionHeading from "./section-heading";
 import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
@@ -10,7 +10,8 @@ import toast from "react-hot-toast";
 
 export default function Contact() {
   const { ref } = useSectionInView("Contact");
-  const [ successfulSubmit, setSuccessfulSubmit] = useState(false);
+  const [successfulSubmit, setSuccessfulSubmit] = useState(false);
+  const refForm = useRef<HTMLFormElement>(null);
 
   return (
     <motion.section
@@ -38,19 +39,21 @@ export default function Contact() {
       </p>
 
       <form
+        ref={refForm}
         className="mt-6 flex flex-col dark:text-black"
         action={async (formData) => {
           const { data, error } = await sendEmail(formData);
 
           if (error) {
             toast.error(error);
-            return ;
+            return;
           }
 
           toast.success("Thanks! I'll get back to you soon 😁", {
             duration: 10000,
           });
           setSuccessfulSubmit(true);
+          refForm.current?.reset();
         }}
       >
         <input
@@ -68,7 +71,10 @@ export default function Contact() {
           required
           maxLength={5000}
         />
-        <SubmitBtn successfulSubmit={successfulSubmit} setSuccessfulSubmit={setSuccessfulSubmit}/>
+        <SubmitBtn
+          successfulSubmit={successfulSubmit}
+          setSuccessfulSubmit={setSuccessfulSubmit}
+        />
       </form>
     </motion.section>
   );
