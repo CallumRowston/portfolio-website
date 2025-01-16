@@ -27,11 +27,11 @@ export default function About() {
         satisfaction of unraveling a complex challenge. My core technology stack
         includes{" "}
         <span className="font-medium">
-          React, Next.js, Express, Python, SQL, and MongoDB
+          JavaScript and Python
         </span>
         . Additionally, I am proficient in{" "}
         <span className="font-medium">
-          TypeScript, Prisma, Flask, Selenium{" "}
+          TypeScript, React, NextJS, Express, SQL, MongoDB, Prisma, Flask, Selenium{" "}
         </span>
         and more! I am <span className="underline">Passionate</span> about
         continuous learning and I am always eager to explore new technologies

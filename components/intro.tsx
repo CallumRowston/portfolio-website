@@ -45,10 +45,10 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hello, I'm Callum.</span> I'm a{" "}
-        <span className="font-bold">full-stack developer</span> with over{" "}
-        <span className="font-bold">a year</span> of experience. I enjoy
-        building <span className="italic">web apps</span>. My focus is{" "}
-        <span className="underline">React (Next.js)</span> and{" "}
+        <span className="font-bold">full-stack developer</span> with 2{" "}
+        <span className="font-bold">years</span> of experience. I enjoy
+        building <span className="italic">web apps</span> and learning new technologies on top of my experience with  {" "}
+        <span className="underline">JavaScript</span> and{" "}
         <span className="underline">Python</span>
       </motion.h1>
 
@@ -71,7 +71,7 @@ export default function Intro() {
         </Link>
 
         <a
-          href="/CallumRowstonCV-SoftwareEngineer-2024.pdf"
+          href="/Callum-Rowston-Junior-Software-Engineer-Resume.pdf"
           download
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:hover:bg-white/30"
         >

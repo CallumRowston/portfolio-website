@@ -7,6 +7,7 @@ import apiErdImg from "@/public/api-erd.png";
 import pywordleImg from "@/public/pywordle.jpeg";
 import nbaOctImg from "@/public/nba-oct.png";
 import portfolioLightImg from "@/public/portfolio-light.jpg";
+import littleMoversClub from "@/public/littlemoversclub.png";
 
 export const links = [
   {
@@ -56,7 +57,7 @@ export const experiencesData = [
     title: "Wicky | Junior Software Engineer",
     location: "Sydney, (Hybrid)",
     description:
-      "I'm now a full-stack developer working for Wicky. Some projects have included expanding the range of data tools to the NBA and NFL and adding new features to existing tools. I have also implemented a user subscription feature to enable monetization of these data tools. ",
+      "I'm now a full-stack developer working for Wicky. Some projects have included expanding the range of data tools to the AFL, NBA and NFL and adding new features to existing tools. We have recently developed a ChatGPT based chatbots for multiple sports to help users make informed decisions by asking questions. I have also implemented a user subscription feature to enable monetization of these data tools. ",
     icon: React.createElement(FaReact),
     date: "Mar 2023 - present",
   },
@@ -64,21 +65,21 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Portfolio Site",
+    title: "Little Movers Club",
     description:
-      "This portfolio site built using the latest NextJS features. Fully animated and responsive with dark mode.",
+      "Professionally branded website for a small business built using the latest NextJS features. Fully animated and responsive with contact form.",
     tags: ["React", "NextJS", "TypeScript", "Tailwind", "Framer"],
-    imageUrl: portfolioLightImg,
-    gitHubUrl: "https://github.com/CallumRowston/portfolio-website"
+    imageUrl: littleMoversClub,
+    gitHubUrl: "https://littlemoversclub.com.au/"
   },
-  {
-    title: "Wicky NBA OCT",
-    description:
-      "A data tool to scrape betting odds from multiple bookmakers for the NBA, aggregate and display the data to help punters make informed decisions",
-    tags: ["Python", "React", "Express", "Selenium", "Pandas", "SQL"],
-    imageUrl: nbaOctImg,
-    gitHubUrl: "https://wicky.ai/nba-oct/"
-  },
+  // {
+  //   title: "Wicky Chatbots",
+  //   description:
+  //     "A suite of AI powered data tools to help punters make informed decisions. Combined with our  to scrape betting odds from multiple bookmakers for the NBA, aggregate and display the data to help punters make informed decisions",
+  //   tags: ["Python", "Streamlit", "Pandas", "SQL"],
+  //   imageUrl: nbaOctImg,
+  //   gitHubUrl: "https://wicky.ai/nba-oct/"
+  // },
   {
     title: "Traveller's Forum",
     description:
