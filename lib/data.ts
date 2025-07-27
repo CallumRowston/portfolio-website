@@ -8,6 +8,7 @@ import pywordleImg from "@/public/pywordle.jpeg";
 import nbaOctImg from "@/public/nba-oct.png";
 import portfolioLightImg from "@/public/portfolio-light.jpg";
 import littleMoversClub from "@/public/littlemoversclub.png";
+import flipIqImg from "@/public/flipiq.png";
 
 export const links = [
   {
@@ -65,6 +66,14 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "FLIPIQ Flashcards",
+    description:
+      "A Flashcard quiz app to build your own quizzes on demand with AI. Includes login for saving created quizzes or a guest mode to avoid signing up",
+    tags: ["Python", "React", "Django", "PostgreSQL", "Tailwind", "OpenAI"],
+    imageUrl: flipIqImg,
+    gitHubUrl: "https://flip-iq.vercel.app/auth"
+  },
+  {
     title: "Little Movers Club",
     description:
       "Professionally branded website for a small business built using the latest NextJS features. Fully animated and responsive with contact form.",
@@ -72,14 +81,6 @@ export const projectsData = [
     imageUrl: littleMoversClub,
     gitHubUrl: "https://littlemoversclub.com.au/"
   },
-  // {
-  //   title: "Wicky Chatbots",
-  //   description:
-  //     "A suite of AI powered data tools to help punters make informed decisions. Combined with our  to scrape betting odds from multiple bookmakers for the NBA, aggregate and display the data to help punters make informed decisions",
-  //   tags: ["Python", "Streamlit", "Pandas", "SQL"],
-  //   imageUrl: nbaOctImg,
-  //   gitHubUrl: "https://wicky.ai/nba-oct/"
-  // },
   {
     title: "Traveller's Forum",
     description:
@@ -113,6 +114,9 @@ export const skillsData = [
   "TypeScript",
   "React",
   "Next.js",
+  "Python",
+  "Django",
+  "Flask",
   "Node.js",
   "Git",
   "Tailwind",
@@ -121,8 +125,6 @@ export const skillsData = [
   "MongoDB",
   "Express",
   "PostgreSQL",
-  "Python",
-  "Flask",
   "Web Scraping",
   "Wordpress",
   "Agile",
