@@ -71,7 +71,7 @@ export default function Intro() {
         </Link>
 
         <a
-          href="/Callum-Rowston-Junior-Software-Engineer-Resume.pdf"
+          href="/Callum_Rowston_Junior_Developer_Resume.pdf"
           download
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:hover:bg-white/30"
         >
